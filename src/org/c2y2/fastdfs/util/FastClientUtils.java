@@ -10,7 +10,6 @@ import org.csource.fastdfs.TrackerClient;
 import org.csource.fastdfs.TrackerServer;
 
 public class FastClientUtils {
-	private static TrackerClient trackerClient = new TrackerClient();
 	static{
 		String classPath = null;
 		try {
@@ -33,6 +32,7 @@ public class FastClientUtils {
 	 * @author c2y2 2015年1月21日
 	 */
 	public static StorageClient getStorageClient(){
+		    TrackerClient trackerClient = new TrackerClient();
 			StorageClient storageClient = null;
 		    TrackerServer trackerServer;
 			try {
