@@ -10,7 +10,6 @@ import org.csource.fastdfs.StorageClient;
 public class FastTestDownload {
 	public static void main(String[] args)throws Exception {
         StorageClient storageClient = FastClientUtils.getStorageClient();  
-          
         String group_name = "g1";  
         String remote_filename = "M00/62/C5/wKgDcVS--jWAOF9tAAF9fgUE8_k712.jpg";  
         FileInfo fi = storageClient.get_file_info(group_name, remote_filename);
