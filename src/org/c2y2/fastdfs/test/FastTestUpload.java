@@ -45,7 +45,7 @@ public class FastTestUpload {
 	 */
 	public static void main(String[] args) throws Exception{
 	    NameValuePair[] meta_list = new NameValuePair[1];  
-	    meta_list[0] = new NameValuePair("xxoo", "c2y2");  
+	    meta_list[0] = new NameValuePair("author", "mzl");  
 	    File file = new File("D:/mzl/工作资料/fastDFS/testFile/500fd9f9d72a6059496335a02b34349b033bba1d.jpg");  
 	    FileInputStream ins = new FileInputStream(file);  
 	    byte[] file_buff = null;  
