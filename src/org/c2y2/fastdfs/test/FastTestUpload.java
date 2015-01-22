@@ -54,6 +54,7 @@ public class FastTestUpload {
 	        file_buff = new byte[len];  
 	        ins.read(file_buff);  
 	    }
+	    ins.close();
 	    System.out.println("file length: " + file_buff.length);  
 	    String group_name = null;  
 	    long startTime = System.currentTimeMillis();  
